@@ -1,0 +1,193 @@
+body {
+    background-color: #ddd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-weight: 300;
+}
+
+a:visited {
+    color: #0000FF;
+}
+
+.search-form {
+    overflow: hidden;
+    position: relative;
+    top: 6px;
+    width: 230px;
+    float: right;
+}
+
+.search {
+    line-height: 230%;
+    vertical-align: middle;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 25px;
+    width: 160px;
+    padding: 0 46px 0 10px;
+    border-color: #888;
+    border-radius: 35px; /* (height/2) + border-width */
+    border-style: solid;
+    border-width: 3px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 13px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.search:focus {
+    outline: none;
+    border-color: #666;
+}
+
+#home {
+    background: #141414;
+    background: -moz-linear-gradient(top, #333333 0%, #141414 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #141414));
+    background: -webkit-linear-gradient(top, #333333 0%, #141414 100%);
+    background: -o-linear-gradient(top, #333333 0%, #141414 100%);
+    background: -ms-linear-gradient(top, #333333 0%, #141414 100%);
+    background: linear-gradient(to bottom, #333333 0%, #141414 100%);
+    color: #fff08c;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+#home:visited {
+    color: #fff08c;
+}
+
+.navbar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    color: #fff08c;
+    background-color: #242424;
+    padding: 8px;
+    margin: -8px -8px 0px -8px;
+    height: 45px;
+}
+
+.info {
+    float: left;
+    width: 1900px;
+    margin: 0 0 30px -8px;
+    background-color: #999;
+    padding: 0 0 12px 3px;
+}
+
+.info img {
+    float: left;
+    margin-left: 8px;
+    margin-right: 18px;
+}
+
+.info .name {
+    font-size: 26px;
+    font-weight: 600;
+
+}
+
+.info .classification {
+    color: #FFF;
+    padding: 3px;
+    border-radius: 8px;
+    border: 2px solid #222;
+    background-color: #666;
+    line-height: 250%;
+}
+
+.spells-section {
+    float: left;
+    clear: left;
+    width: 600px;
+    height: 450px;
+    margin-left: 8px;
+    padding: 6px;
+    border: 2px solid #222;
+}
+
+.spell .image {
+    float: left;
+    margin-right: 12px;
+}
+
+.spell {
+    height: 25%;
+}
+
+.spell-name, .spell-desc {
+    float: left;
+}
+
+.spell-name {
+    font-weight: 600;
+}
+
+.links {
+    float: left;
+}
+
+.counter-table {
+    margin-left: 100px;
+}
+
+th {
+    padding: 7px 10px 8px 0px;
+}
+
+td {
+    padding: 8px 8px 5px 5px;
+}
+
+td img {
+    margin-right: 10px;
+}
+
+td a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.name-display {
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    color: #888;
+}
+
+.against-tips {
+    float: left;
+    clear: left;
+    width: 40%;
+    margin-right: 12%;
+    margin-bottom: 6%;
+}
+
+.as-tips {
+    float: left;
+    width: 40%;
+    margin-bottom: 6%;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 2px;
+}
+
+.content {
+    border: 2px solid #222;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 120%;
+    background-color: #eee;
+}
+
+.content > p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 2px;
+}

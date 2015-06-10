@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>League of Legends Counter Picks -- {champ_name}</title>
+
+  <!-- The external links to css and javascript files are to handle the hidden table-->
+  <link rel="stylesheet" type="text/css" href="css/profile.css">
+
+</head>
+
+<body>
+  <div class="navbar">
+    <span><a id="home" href="index.py">Homepage</a></span>
+    <div class="search-form"><form action="index.py" method="get">
+      <input class="search" type="text" name="champ_name" placeholder="Search for a champion" />
+    </form></div></div>
+
+  <div class="info">
+    {champ_image}
+    {classification}
+  </div>
+
+  <div class="spells-section">
+  	{spells}
+  </div>
+
+  <div class="links"><table class="counter-table">
+    <tr>
+      <th scope="col"><span class="name-display">{champ_name}</span> is weak against</th>
+      <th scope="col"><span class="name-display">{champ_name}</span> is strong against</th>
+    </tr>
+    {related_links}
+  </table></div>
+
+  <div class="against-tips">
+  	<p class="header">If you are playing <span class="emph">against</span> {champ_name}:</span></p>
+  	{against_tips}
+  </div>
+
+  <div class="as-tips">
+  	<p class="header">If you are playing <span class="emph">as</span> {champ_name}:</span></p>
+  	<!--div class="content"></div-->
+  	{as_tips}
+  </div>  
+
+</body>
+</html>

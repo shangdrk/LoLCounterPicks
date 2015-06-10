@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>League of Legends Counter Picks</title>
+
+  <!-- The external links to css and javascript files are to handle the hidden table-->
+  <link rel="stylesheet" type="text/css" href="css/navigation.css">
+
+</head>
+
+<body>
+  <div class="navbar">
+    <ul>
+      <li id="filter-title"><span>Search Filters</span></li>
+      <li class="has-sub">
+        <a href="#"><span>Lane</span></a>
+        <ul>
+          <li ><a href="index.py?lane=Top"><span>Top</span></a></li>
+          <li><a href="index.py?lane=Mid"><span>Mid</span></a></li>
+          <li><a href="index.py?lane=Bottom"><span>Bottom</span></a></li>
+        </ul>
+      </li>
+      <li class="has-sub">
+        <a href="#"><span>Category</span></a>
+        <ul>
+          <li><a href="index.py?category=Assassin"><span>Assassin</span></a></li>
+          <li><a href="index.py?category=Fighter"><span>Fighter</span></a></li>
+          <li><a href="index.py?category=Mage"><span>Mage</span></a></li>
+          <li><a href="index.py?category=Marksman"><span>Marksman</span></a></li>
+          <li><a href="index.py?category=Support"><span>Support</span></a></li>
+          <li><a href="index.py?category=Tank"><span>Tank</span></a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  
+  <div>
+    <h1><a href="index.py"><img class="logo" src="http://b68389.medialib.glogster.com/media/82d078b90fcb74620555b2422fd2eee3e7e39c82c03ce69d5ef6d8517c3ea1d1/league-of-legends-logo.png" alt="League of Legends Counter Picks"/></a>
+      <div id="title">Counter Picking Database</div>
+    </h1>
+  </div>
+  <div class="search-form"><form action="index.py" method="get">
+    <input class="search" type="text" name="champ_name" placeholder="Search for a champion" />
+    <input type="submit" id="submit-button" style="position: absolute; left: -9999px"/>
+  </form></div>
+  <div class="champ-display">{champ_display}</div>
+</body>
+</html>
